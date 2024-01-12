@@ -1,0 +1,118 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+/*add a background colour*/
+body {
+   background-color: #f8e3f5; 
+}
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+.mainLine {
+  width: 100%;
+  border-width: 9px;
+  margin-bottom: 2%;
+}
+
+hr {
+  border-width: 4px;
+  margin-bottom: 2%;
+}
+
+/* STYLE NAV BAR */
+ul {
+  text-align: center;
+  font-size: 25px;
+  list-style-type: none;
+  background-color: #0e0354;
+  overflow: hidden;
+  padding: 0.5em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1em;
+  padding: 1em;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #ff70ec;
+}
+
+
+
+/* STYLE TEXT */
+h1 {
+  color: #750075;
+   font-size: 60px;
+  margin-top: 1%;
+  font-family: Oswald;
+}
+
+h2 {
+  color: black;
+  font-size: 30px;
+  font-family: Oswald;
+}
+
+#IntroTxt {
+  color: black;
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+#MyPortH2{
+  margin-bottom:1%;
+  font-family: Oswald;
+}
+
+p {
+  color: black;
+  font-size: 18px;
+}
+
+.PortTEXT{
+  font-size: 18px;
+  color: black;
+  margin-bottom: 2%;
+}
+
+#LastText {
+  margin-bottom: 5%;
+}
+
+/* STYLE IMAGES */
+.MainImage {
+  max-width: 600px;
+  border: 3px solid #9C7F7C;
+}
+.StemImage {
+  max-width: 450px;
+  border-radius: 10%
+}
+.PortfolioImages {
+  max-width: 500px;
+  max-height: 300px;
+  border-radius: 5%;
+} 
+
+#PortText {
+  font-size: 18px;
+  color: black;
+  margin-top: 3%;
+}
